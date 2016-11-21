@@ -1,0 +1,68 @@
+.contenedor{
+	width: 600px;
+	height:600px;
+	margin:auto;
+	background:#0B4C5F;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	#mostrar{
+		margin-top:40px;
+		width: 550px;
+		height: 80px;
+		background: rgba(26,200,32,0.5);
+		color:black;
+		text-align: right;
+		font-size:70px;
+		padding-top:10px;
+	}
+	#numeros{
+		width:330px;
+		height: 400px;
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
+		div{
+			width: 95px;
+			padding-top: 25px;
+			background:#0B3B39;
+			margin:5px;
+			font-size:40px;
+			color:white;
+			text-align: center;
+			&:active{
+				background:black;
+			}
+			}
+	}
+	.operadores{
+		width: 230px;
+		height: 400px;
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
+		div{
+			width: 95px;
+			padding-top: 30px;
+			background:#58ACFA;
+			margin:5px;
+			font-size:40px;
+			color:black;
+			text-align: center;
+			&:active{
+				background:white;
+			}
+		}
+	}
+
+}
+
+#historial{
+	color:blue;
+	font-size:30px;
+}
+h2{
+	font-size:40px;
+	text-transform:uppercase;
+	padding: 30px 0;
+}
